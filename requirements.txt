@@ -3,7 +3,10 @@ attrs==21.2.0
 backcall==0.2.0
 bleach==4.1.0
 Boruta==0.3
+certifi==2021.5.30
 cffi==1.14.6
+charset-normalizer==2.0.6
+click==8.0.1
 colorama==0.4.4
 cycler==0.10.0
 DateTime==4.3
@@ -11,11 +14,14 @@ debugpy==1.4.3
 decorator==5.1.0
 defusedxml==0.7.1
 entrypoints==0.3
+Flask==2.0.2
+idna==3.2
 inflection==0.5.1
 ipykernel==6.4.1
 ipython==7.27.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.5
+itsdangerous==2.0.1
 jedi==0.18.0
 Jinja2==3.0.1
 joblib==1.0.1
@@ -63,6 +69,7 @@ PyYAML==5.4.1
 pyzmq==22.3.0
 qtconsole==5.1.1
 QtPy==1.11.1
+requests==2.26.0
 scikit-learn==0.24.2
 scipy==1.7.1
 seaborn==0.11.2
@@ -75,8 +82,10 @@ testpath==0.5.0
 threadpoolctl==2.2.0
 tornado==6.1
 traitlets==5.1.0
+urllib3==1.26.7
 wcwidth==0.2.5
 webencodings==0.5.1
+Werkzeug==2.0.2
 widgetsnbextension==3.5.1
 xgboost==1.4.2
 zope.interface==5.4.0
