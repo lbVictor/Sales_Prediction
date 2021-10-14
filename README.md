@@ -135,6 +135,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 	
 		![RossmannCVPerformance](https://user-images.githubusercontent.com/85720162/137337535-ba393661-0449-43a6-b185-ca3b3ba187d9.png)
 		
+		Apesar da random forest apresentar um melhor resultado inicialmente, o modelo escolhido para ser utilizado foi a xgboost devido ter apresentado um desempenho superior após a etapa do HP fine tuning e o tamanho do modelo treinado ser menor em relação a random forest.	
 	
 10. **Hyperparameter Fine Tuning:** In this step, we look for the best parameters to obtain an even better performance from the model that was chosen in the previous step. To obtain these parameters, an optimization method called Random Search was applied, which randomly tested a set of parameters that were passed to it and returned the set of parameters that presented the best result.
 	
