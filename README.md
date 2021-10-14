@@ -99,7 +99,21 @@ The product range includes up to 21,700 items and can vary depending on the size
 
 
 	![Flowchart - Frame 1 (2)](https://user-images.githubusercontent.com/85720162/137370090-71ec9e36-cb3f-48ed-ab81-ef7b5c82b7b3.jpg)
-	
+
 <p align="center">
-	<img width="200" height="200" src="img/telegram_bot.git">
-</p>	
+Rossmann Bot
+</p>
+
+<p align="center">
+ 	<img width="350" alt="drawing" src="img/telegram_bot.gif">
+</p>
+
+<p align="center">
+To access a store's sales forecast, start a Telegram conversation with RossmanBot @rossmann_sales_prediction_bot and enter the store id.
+</p>
+
+* **Conclusion:**
+
+* **Next Steps:**
+
+* **Learns:**
