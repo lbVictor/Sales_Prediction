@@ -5,8 +5,60 @@
 ## About the Project
 For the development of this project, public data available by the company Dirk Rossmann GmbH in a Kaggle competition in 2015 was used. From this data, a business context was created in which the company's CFO needs a forecast of the next six weeks of sales of each store. Based on this, this project was developed in order to get as close as possible to a solution to a real demand of the company, executing all the necessary steps, generating insights and building a really usable data product that generates value for the stakeholder and the company.
 
+The methodology used to carry out this project was CRISP-DM which works through cyclical development with the objective of delivering value quickly. **This project refers to the first cycle of CRISP-DM**.
+
 <p align="center">
- 	<img width="350" alt="drawing" src="img/crisp.png">
+	The CRISP-DM Cycle
+</p>
+
+<p align="center">
+	<img width="450" alt="drawing" src="img/crisp.png">
+</p>
+
+
+**For the execution of this project the following tools were used:**
+<p align="left">
+ <table>
+  <tbody>
+    <tr valign="top">
+      <td width="5%" align="center">
+        <span>Python</span><br><br>
+        <img height="40px" src="https://cdn.svgporn.com/logos/python.svg">
+      </td>
+      <td width="5%" align="center">
+        <span>pandas</span><br><br>
+        <img height="40px" src="https://pandas.pydata.org/static/img/pandas.svg">
+      </td>
+      <td width="5%" align="center">
+        <span>NumPy</span><br><br>
+        <img height="40px" src="https://numpy.org/images/logos/numpy.svg">
+      </td>
+      <td width="5%" align="center">
+        <span>Matplotlib</span><br><br>
+        <img height="40px" src="https://matplotlib.org/_images/sphx_glr_logos2_001.png">
+      </td>
+      <td width="5%" align="center">
+        <span>seaborn</span><br><br>
+        <img height="40px" src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg">
+      </td>
+      <td width="10%" align="center">
+        <span>scikit-learn</span><br><br>
+        <img height="40px" src="https://scikit-learn.org/stable/_images/scikit-learn-logo-notext.png">
+      </td>
+      <td width="5%" align="center">
+        <span>XGBoost</span><br><br>
+        <img height="40px" src="https://upload.wikimedia.org/wikipedia/commons/6/69/XGBoost_logo.png">	    
+      </td>
+      <td width="5%" align="center">
+        <span>Flask</span><br><br>
+        <img height="40px" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png">
+      </td>
+      <td width="5%" align="center">
+        <span>Heroku</span><br><br>
+        <img height="40px" src="https://blog.4linux.com.br/wp-content/uploads/2018/01/Heroku.png">
+       </td>
+  </tbody>
+</table>
 </p>
 
 ## About the Company
