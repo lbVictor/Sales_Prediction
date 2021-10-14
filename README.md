@@ -54,7 +54,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 	* **Bivariate analysis:** carried out in order to understand the relationship between the independent variables with the dependent variable, which is 'sales' and to validate the business hypotheses raised in the previous step.
 	* **Multivariate Analysis:** carried out in order to understand the correlation between all dataset variables.
 	
-* **Data Preprocessing:** At this stage, the preparation of data for future application in machine learning algorithms was performed. The objective is to adjust the data without losing the information content in order to facilitate its understanding by machine learning algorithms.
+* **Data Pre-processing:** At this stage, the preparation of data for future application in machine learning algorithms was performed. The objective is to adjust the data without losing the information content in order to facilitate its understanding by machine learning algorithms.
 	* **Numerical variables:**
 		* **Transformation:** applied the log on the response variable(sales) to bring its distribution closer to a Gaussian distribution.				
 		* **Rescaling:** applied to time-related variables that do not follow a cyclical nature and a variable that contains a distance in meters.
@@ -93,5 +93,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 * **Machine Learning Performance**
 
 ###	Deploy
-* **Deploy Model to Production**
-* **Telegram Bot**
+* **Deploy Model to Production:** Para publicar o modelo em produção seguindo o objetivo inicial de ser uma aplicação de facil e rapido acesso, foi desenvolvido um bot no telegram que o usuario passa o ID da loja que deseja visualizar a previsão de faturamento e uma cloud no Heroku é carregada contenddo as APIs que vão receber essa informação e carregar os dados necessarios para realizar a aplicação do modelo de machine learning e retornar o resultado para o usuario. Abaixo esta um fluxograma do funcionamento com as etapas desse processo:
+
+
+	![Flowchart - Frame 1 (2)](https://user-images.githubusercontent.com/85720162/137370090-71ec9e36-cb3f-48ed-ab81-ef7b5c82b7b3.jpg)
