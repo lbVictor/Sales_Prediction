@@ -42,11 +42,27 @@ The product range includes up to 21,700 items and can vary depending on the size
 * **Solution Plan:** After understanding the reason for the CFO to request the accumulated revenue per store for the next 6 weeks, an end-to-end sales forecast project was agreed to be carried out in order to understand the behavior of the features provided, obtain future sales of the stores through a regression machine learning model and display the results in a simple and fast way through a messaging application, where the stakeholder provides the store id and the application returns the estimated sales prediction of the store for the next 6 weeks.
 
 ### Data Understanding & Data Preparation
-* **Data Cleaning & Data Description**
-* **Feature Engineering**
-* **Exploratory Data Analysis (EDA)**
-* **Data Preprocessig**
-* **Feature Selection**
+
+* **Data Cleaning & Data Description:** At this stage, the dimensions of the data were verified; data cleaning was performed: renaming columns, changing types to the correct format, analyzing and replacing NAs. A descriptive statistical analysis is also carried out to get an initial idea of the data and identify possible errors.
+
+* **Feature Engineering:** At this stage, a mind-map was created to model the phenomenon(sales) and business hypotheses were generated to be validated in the future. Based on the generated hypotheses, features from the original dataset were derived to support the analysis and learning of the model, which will be carried out in the next phases.
+
+* **Exploratory Data Analysis (EDA):** At this stage, three types of analysis were performed in order to better understand the available data.
+	* **Univariate analysis:** carried out in order to understand the individual behavior of each variable.
+	* **Bivariate analysis:** carried out in order to understand the relationship between the independent variables with the dependent variable, which is 'sales' and to validate the business hypotheses raised in the previous step.
+	* **Multivariate Analysis:** carried out in order to understand the correlation between all dataset variables.
+	
+* **Data Preprocessig:** At this stage, the preparation of data for future application in machine learning algorithms was performed. The objective is to adjust the data without losing the information content in order to facilitate its understanding by machine learning algorithms.
+	* **Numerical variables:**
+		* **Transformation:** applied the log on the response variable(sales) to bring its distribution closer to a Gaussian distribution.				
+		* **Rescaling:** applied to time-related variables that do not follow a cyclical nature and a variable that contains a distance in meters.
+		* **Nature Transformation:** the sine and cosine of the variables with information related to the passage of time were extracted, so that their cyclical nature can be better interpreted by the model.
+
+	* **Categorical variables:**
+		 * **Encoding:** Ordinal Encoding is applied to variables that follow an order; Label Encoding on variables that don't follow an order; and One Hot Encoding on variables that represent a state and affect all other variables in the dataset.
+		 
+* **Feature Selection:** In this step, a feature selection algorithm called Boruta was applied, along with a random forest, and which uses the selection by subset (Wrapper method) as a criterion, which adds feature by feature, training the model and applying it to check if the accuracy increases or decreases, selecting only features that have an increase in model accuracy. 
+
 
 ### Modeling
 * **Machine Learning Algorithms**
