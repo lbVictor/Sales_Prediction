@@ -47,6 +47,8 @@ The product range includes up to 21,700 items and can vary depending on the size
 
 * **Feature Engineering:** At this stage, a mind-map was created to model the phenomenon(sales) and business hypotheses were generated to be validated in the future. Based on the generated hypotheses, features from the original dataset were derived to support the analysis and learning of the model, which will be carried out in the next phases.
 
+* **Variable Filtering:** At this stage, the data referring to the days that the stores were closed and/or had no sales were removed; and also removed the columns that are not relevant because we have derived other features from them and the column 'customers' which contains information that we won't have in the production environment.
+
 * **Exploratory Data Analysis (EDA):** At this stage, three types of analysis were performed in order to better understand the available data.
 	* **Univariate analysis:** carried out in order to understand the individual behavior of each variable.
 	* **Bivariate analysis:** carried out in order to understand the relationship between the independent variables with the dependent variable, which is 'sales' and to validate the business hypotheses raised in the previous step.
@@ -65,7 +67,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 
 
 ### Modeling
-* **Machine Learning Algorithms:** In this step, we train five Machine Learning models to compare the results. The first was an averaging model to be used as a baseline; the second and third were a linear regression and a regularized linear regression with the objective of measuring the complexity of the phenomenon we are modeling (the worse the result, the more complex the phenomenon); the fourth and fifth model were a Random Forest Regressor and a XGBoost Regressor, which are more sophisticated models and obtain better results in more complex phenomena.
+* **Machine Learning Algorithms:** In this step, we train five Machine Learning models to compare the results. The first was an averaging model to be used as a baseline; the second and third were a linear regression and a regularized linear regression(lasso) with the objective of measuring the complexity of the phenomenon we are modeling (the worse the result, the more complex the phenomenon); the fourth and fifth model were a Random Forest Regressor and a XGBoost Regressor, which are more sophisticated models and obtain better results in more complex phenomena.
 
 	* **Cross-Validation:** technique applied to the training dataset to verify if the results initially obtained are in fact the real ones, or if the validation data were positively or negatively biased. The technique consists of dividing several parts of the dataset between training and validation (following the chronological order of the data) and performing the prediction several times in order to find the average of the predictions that would be the real result of the model.
 	Cross-Validation Results:
