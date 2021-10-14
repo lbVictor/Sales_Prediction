@@ -100,4 +100,6 @@ The product range includes up to 21,700 items and can vary depending on the size
 
 	![Flowchart - Frame 1 (2)](https://user-images.githubusercontent.com/85720162/137370090-71ec9e36-cb3f-48ed-ab81-ef7b5c82b7b3.jpg)
 	
-	https://user-images.githubusercontent.com/85720162/137375614-ff58eb95-d9df-4f47-8e58-5718f0ed8b19.mp4
+<p align="center">
+	<img width="200" height="200" src="img/telegram_bot.git">
+</p>	
