@@ -86,7 +86,10 @@ The product range includes up to 21,700 items and can vary depending on the size
 	![RossmannHPTunePerformance](https://user-images.githubusercontent.com/85720162/137338714-7a22fa46-d218-440d-8b90-097a4565cd9c.png)
 	
 ###	Evaluation
-* **Business Performance & Financial Results**
+* **Financial Results:** At this stage, the transformation of the model result to a business result was carried out. For a better understanding of the model's financial results, the sum of the total predictions of all stores was performed and the best and worst scenarios were created according to the mean absolute percentage error(MAPE) of 10% displayed in the model results of the Hyperparameter Fine Tuning step.
+	
+	![RossmannPredictionScenarios](https://user-images.githubusercontent.com/85720162/137360461-44e22044-65ad-4252-a872-bbb94e174c7a.png)
+	
 * **Machine Learning Performance**
 
 ###	Deploy
