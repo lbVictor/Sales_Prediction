@@ -81,11 +81,13 @@ The product range includes up to 21,700 items and can vary depending on the size
 	
 * **Hyperparameter Fine Tuning:** In this step, we look for the best parameters to obtain an even better performance from the model that was chosen in the previous step. To obtain these parameters, an optimization method called Random Search was applied, which randomly tested a set of parameters that were passed to it and returned the set of parameters that presented the best result.
 	
-	 Final Results:
+	 **Final Results:**
+	
+	![RossmannHPTunePerformance](https://user-images.githubusercontent.com/85720162/137338714-7a22fa46-d218-440d-8b90-097a4565cd9c.png)
 	
 ###	Evaluation
-* **Error Interpretation**
-* **Bussiness Performance**
+* **Business Performance & Financial Results**
+* **Machine Learning Performance**
 
 ###	Deploy
 * **Deploy Model to Production**
