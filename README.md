@@ -3,6 +3,7 @@
 
 ------------------------------------------------------------------
 ## About the Project
+For the development of this project, public data available by the company Dirk Rossmann GmbH in a Kaggle competition in 2015 was used. From this data, a business context was created in which the company's CFO needs a forecast of the next six weeks of sales of each store. Based on this, this project was developed in order to get as close as possible to a solution to a real demand of the company, executing all the necessary steps, generating insights and building a really usable data product that generates value for the stakeholder and the company.
 
 ## About the Company
 Dirk Rossmann GmbH is one of the largest drug store chains in Europe with around 56.300 employees and a total of 4.244 stores, including 2.233 in Germany. In 2020, the Rossmann Group achieved sales of €10,35 billion turnover in Germany, Poland, Hungary, the Czech Republic, Turkey, Albania, Kosovo and Spain.
