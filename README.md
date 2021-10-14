@@ -12,8 +12,8 @@ The company was founded by Dirk Rossmann[4] with its headquarters in Burgwedel n
 The product range includes up to 21,700 items and can vary depending on the size of the shop and the location.
 
 ## Project Structure
-### Bussiness Understanding
-* **Bussiness Problem:** Rossmann's CFO recently asked store managers for a projection of the next six weeks of sales, as based on this information, he intends to define the investment that will be made in the renovation of each store. Given the requested information and the lack of accurate response from store managers, the data science team suggested the development of a solution to this problem, prioritizing the quality of information and ease of access by the stakeholder.
+### Business Understanding
+* **Business Problem:** Rossmann's CFO recently asked store managers for a projection of the next six weeks of sales, as based on this information, he intends to define the investment that will be made in the renovation of each store. Given the requested information and the lack of accurate response from store managers, the data science team suggested the development of a solution to this problem, prioritizing the quality of information and ease of access by the stakeholder.
 
   For this project, a dataset with sales information for the years 2013 until mid-2015 was made available, with data referring to 1,115 Rossmann stores.
 	
@@ -52,7 +52,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 	* **Bivariate analysis:** carried out in order to understand the relationship between the independent variables with the dependent variable, which is 'sales' and to validate the business hypotheses raised in the previous step.
 	* **Multivariate Analysis:** carried out in order to understand the correlation between all dataset variables.
 	
-* **Data Preprocessig:** At this stage, the preparation of data for future application in machine learning algorithms was performed. The objective is to adjust the data without losing the information content in order to facilitate its understanding by machine learning algorithms.
+* **Data Preprocessing:** At this stage, the preparation of data for future application in machine learning algorithms was performed. The objective is to adjust the data without losing the information content in order to facilitate its understanding by machine learning algorithms.
 	* **Numerical variables:**
 		* **Transformation:** applied the log on the response variable(sales) to bring its distribution closer to a Gaussian distribution.				
 		* **Rescaling:** applied to time-related variables that do not follow a cyclical nature and a variable that contains a distance in meters.
