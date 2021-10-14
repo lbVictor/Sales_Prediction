@@ -5,7 +5,7 @@
 ## About the Project
 
 ## About the Company
-Dirk Rossmann GmbH (usual: Rossmann) is one of the largest drug store chains in Europe with around 56.300 employees and a total of 4.244 stores, including 2.233 in Germany. In 2020, the Rossmann Group achieved sales of €10,35 billion turnover in Germany, Poland, Hungary, the Czech Republic, Turkey, Albania, Kosovo and Spain.
+Dirk Rossmann GmbH is one of the largest drug store chains in Europe with around 56.300 employees and a total of 4.244 stores, including 2.233 in Germany. In 2020, the Rossmann Group achieved sales of €10,35 billion turnover in Germany, Poland, Hungary, the Czech Republic, Turkey, Albania, Kosovo and Spain.
 
 The company was founded by Dirk Rossmann[4] with its headquarters in Burgwedel near Hanover in Germany. The Rossmann family owns 60%, and the Hong Kong-based A.S. Watson Group 40% of the company.
 
@@ -65,10 +65,15 @@ The product range includes up to 21,700 items and can vary depending on the size
 
 
 ### Modeling
-* **Machine Learning Algorithms**
-* **Cross-Validation**
-* **Hyperparameter Fine Tuning**
+* **Machine Learning Algorithms:** In this step, we train five Machine Learning models to compare the results. The first was an averaging model to be used as a baseline; the second and third were a linear regression and a regularized linear regression with the objective of measuring the complexity of the phenomenon we are modeling (the worse the result, the more complex the phenomenon); the fourth and fifth model were a Random Forest Regressor and a XGBoost Regressor, which are more sophisticated models and obtain better results in more complex phenomena.
 
+	* **Cross-Validation:** technique applied to the training dataset to verify if the results initially obtained are in fact the real ones, or if the validation data were positively or negatively biased. The technique consists of dividing several parts of the dataset between training and validation (following the chronological order of the data) and performing the prediction several times in order to find the average of the predictions that would be the real result of the model.
+	Cross-Validation Results:
+	
+* **Hyperparameter Fine Tuning:** In this step, we look for the best parameters to obtain an even better performance from the model that was chosen in the previous step. To obtain these parameters, an optimization method called Random Search was applied, which randomly tested a set of parameters that were passed to it and returned the set of parameters that presented the best result.
+	
+	 Final Results:
+	
 ###	Evaluation
 * **Error Interpretation**
 * **Bussiness Performance**
