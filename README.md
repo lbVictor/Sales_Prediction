@@ -100,7 +100,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 
 ### Data Understanding & Data Preparation
 
-3. **Data Cleaning & Data Description:** At this stage, the dimensions of the data were verified; data cleaning was performed: renaming columns, changing types to the correct format, analyzing and replacing NAs. A descriptive statistical analysis is also carried out to get an initial idea of the data and identify possible errors.
+3. **Data Cleaning & Data Description:** At this stage, the dimensions of the data were verified; data cleaning was performed: renaming columns, changing types to the correct format, analyzing and replacing missing data. A descriptive statistical analysis is also carried out to get an initial idea of the data and identify possible errors.
 
 4. **Feature Engineering:** At this stage, a mind-map was created to model the phenomenon(sales) and business hypotheses were generated to be validated in the future. Based on the generated hypotheses, features from the original dataset were derived to support the analysis and learning of the model, which will be carried out in the next phases.
 
@@ -135,7 +135,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 	
 		![RossmannCVPerformance](https://user-images.githubusercontent.com/85720162/137337535-ba393661-0449-43a6-b185-ca3b3ba187d9.png)
 		
-		Apesar da random forest apresentar um melhor resultado inicialmente, o modelo escolhido para ser utilizado foi a xgboost devido ter apresentado um desempenho superior após a etapa do HP fine tuning e o tamanho do modelo treinado ser menor em relação a random forest.	
+		Although random forest initially presented a better result, the model chosen to be used was xgboost because it presented a very similar performance after the HP fine tuning step, in addition to training the model faster and having a much smaller final size compared to random forest.
 	
 10. **Hyperparameter Fine Tuning:** In this step, we look for the best parameters to obtain an even better performance from the model that was chosen in the previous step. To obtain these parameters, an optimization method called Random Search was applied, which randomly tested a set of parameters that were passed to it and returned the set of parameters that presented the best result.
 	
@@ -170,8 +170,12 @@ Rossmann Bot
 To access a store's sales forecast, start a Telegram conversation with RossmanBot @rossmann_sales_prediction_bot and enter the store id.
 </p>
 
-* **Conclusion:**
+* **Next Steps:** For the next CRISP cycle, we can make several improvements to the project:
 
-* **Next Steps:**
+	- Develop a secondary project to forecast the number of customers in the store in the next six weeks and use the model output as input in this sales forecast project.
+	- Map more features that impact the business through a more accurate mental map and raise and validate more business hypotheses to generate actionable insights for the business team. 
+	- Test different machine learning algorithms to get more accurate results.
+	- Use a more sophisticated hyperparameter fine tuning technique.
+	- Optimize the bot on the telegram to provide more information to the user.
 
 * **Learns:**
