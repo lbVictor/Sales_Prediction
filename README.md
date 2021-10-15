@@ -150,7 +150,9 @@ The product range includes up to 21,700 items and can vary depending on the size
 	
 		![RossmannPredictionScenarios](https://user-images.githubusercontent.com/85720162/137360461-44e22044-65ad-4252-a872-bbb94e174c7a.png)
 	
-	* **Machine Learning Performance**
+	* **Machine Learning Performance:** As can be seen from the image below, the model predictions are very close to the real data, which shows us a very accurate result of the algorithm. Further analysis of the model's performance is available on the notebook in the Translation and Error Interpretation section.
+
+	
 
 ###	Deploy
 12. **Deploy Model to Production:** To publish the model in production following the initial objective of being an application with easy and quick access, a bot was developed in the telegram that the user informs the ID of the store that wants to view the sales forecast and a cloud in Heroku is loaded containing the APIs that will receive this information and load the necessary data to carry out the application of the machine learning model and return the result to the user. Below is a flowchart of the operation with the steps of this process:
@@ -173,9 +175,9 @@ To access a store's sales forecast, start a Telegram conversation with RossmanBo
 * **Next Steps:** For the next CRISP cycle, we can make several improvements to the project:
 
 	- Develop a secondary project to forecast the number of customers in the store in the next six weeks and use the model output as input in this sales forecast project.
-	- Map more features that impact the business through a more accurate mental map and raise and validate more business hypotheses to generate actionable insights for the business team. 
+	- Map more features that impact the business through a more accurate mental map and raise and validate more business hypothesis to generate actionable insights for the business team. 
 	- Test different machine learning algorithms to get more accurate results.
 	- Use a more sophisticated hyperparameter fine tuning technique.
 	- Optimize the bot on the telegram to provide more information to the user.
 
-* **Learns:**
+* **Learns:** This was the first data science project I did and I can say that the lessons learned were immense. The development of all stages of the project in an organized and structured way, from the initial understanding of the problem to training the model, interpreting the results and publishing it in production, added a lot to my knowledge in the area and in my ability to develop projects in such a way structured. All the analyzes carried out contributed a lot to my understanding of the sales phenomenon in a chain of stores, which can be very useful in future analyzes in several areas. 
