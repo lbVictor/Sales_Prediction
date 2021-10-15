@@ -152,7 +152,8 @@ The product range includes up to 21,700 items and can vary depending on the size
 	
 	* **Machine Learning Performance:** As can be seen from the image below, the model predictions are very close to the real data, which shows us a very accurate result of the algorithm. Further analysis of the model's performance is available on the notebook in the Translation and Error Interpretation section.
 
-	
+		![ModelPerformance](https://user-images.githubusercontent.com/85720162/137546021-b1ee6264-e5a4-4dfe-b26b-23286d504452.png)
+
 
 ###	Deploy
 12. **Deploy Model to Production:** To publish the model in production following the initial objective of being an application with easy and quick access, a bot was developed in the telegram that the user informs the ID of the store that wants to view the sales forecast and a cloud in Heroku is loaded containing the APIs that will receive this information and load the necessary data to carry out the application of the machine learning model and return the result to the user. Below is a flowchart of the operation with the steps of this process:
