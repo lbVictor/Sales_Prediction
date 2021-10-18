@@ -102,19 +102,19 @@ The product range includes up to 21,700 items and can vary depending on the size
 
 3. **Data Cleaning & Data Description:** At this stage, the dimensions of the data were verified; data cleaning was performed: renaming columns, changing types to the correct format, analyzing and replacing missing data. A descriptive statistical analysis is also carried out to get an initial idea of the data and identify possible errors.
 
-4. **Feature Engineering:** At this stage, a mind-map was created to model the phenomenon(sales) and business hypotheses were generated to be validated in the future. Based on the generated hypotheses, features from the original dataset were derived to support the analysis and learning of the model, which will be carried out in the next phases.
+4. **Feature Engineering:** At this stage, a mind-map was created to model the phenomenon(sales) and 12 business hypotheses were generated to be validated in the future. Based on the generated hypotheses, features from the original dataset were derived to support the analysis and learning of the model, which will be carried out in the next phases.
 
 5. **Variable Filtering:** At this stage, the data referring to the days that the stores were closed and/or had no sales were removed; and also removed the columns that are not relevant because we have derived other features from them and the column 'customers' which contains information that we won't have in the production environment.
 
 6. **Exploratory Data Analysis (EDA):** At this stage, three types of analysis were performed in order to better understand the available data.
 	* **Univariate analysis:** carried out in order to understand the individual behavior of each variable.
-	* **Bivariate analysis:** carried out in order to understand the relationship between the independent variables with the dependent variable, which is 'sales' and to validate the business hypotheses raised in the previous step.
+	* **Bivariate analysis:** carried out in order to understand the relationship between the independent variables with the dependent variable which is 'sales' and to validate the business hypotheses raised in the previous step.
 	* **Multivariate Analysis:** carried out in order to understand the correlation between all dataset variables.
 	
-7. **Data Pre-processing:** At this stage, the preparation of data for future application in machine learning algorithms was performed. The objective is to adjust the data without losing the information content in order to facilitate its understanding by machine learning algorithms.
+7. **Data Preprocessing:** At this stage, the preparation of data for future application in machine learning algorithms was performed. The objective is to adjust the data without losing the information content in order to facilitate its understanding by machine learning algorithms.
 	* **Numerical variables:**
-		* **Transformation:** applied the log on the response variable(sales) to bring its distribution closer to a Gaussian distribution.				
-		* **Rescaling:** applied to time-related variables that do not follow a cyclical nature and a variable that contains a distance in meters.
+		* **Transformation:** applied the logarithmic transformation on the response variable(sales) to bring its distribution closer to a Gaussian distribution.	
+		* **Rescaling:** MinMax Scaler and Robust Scaler was applied to time-related variables that do not follow a cyclical nature and a variable that contains a distance in meters.
 		* **Nature Transformation:** the sine and cosine of the variables with information related to the passage of time were extracted, so that their cyclical nature can be better interpreted by the model.
 
 	* **Categorical variables:**
@@ -125,6 +125,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 
 ### Modeling
 9. **Machine Learning Algorithms:** In this step, we train five Machine Learning models to compare the results. The first was an averaging model to be used as a baseline; the second and third were a linear regression and a regularized linear regression(lasso) with the objective of measuring the complexity of the phenomenon we are modeling (the worse the result, the more complex the phenomenon); the fourth and fifth model were a Random Forest Regressor and a XGBoost Regressor, which are more sophisticated models and obtain better results in more complex phenomena.
+	
 	**ML Results:**
 	
 	![RossmannCVPerformance](https://user-images.githubusercontent.com/85720162/137336387-d584f99e-b5d7-4a43-afd0-b36be1047fb5.png)
@@ -139,7 +140,7 @@ The product range includes up to 21,700 items and can vary depending on the size
 	
 10. **Hyperparameter Fine Tuning:** In this step, we look for the best parameters to obtain an even better performance from the model that was chosen in the previous step. To obtain these parameters, an optimization method called Random Search was applied, which randomly tested a set of parameters that were passed to it and returned the set of parameters that presented the best result.
 	
-	 **Final Results:**
+	**Final Results:**
 	
 	![RossmannHPTunePerformance](https://user-images.githubusercontent.com/85720162/137338714-7a22fa46-d218-440d-8b90-097a4565cd9c.png)
 	
