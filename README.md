@@ -64,7 +64,7 @@ The methodology used to carry out this project was CRISP-DM which works through 
 ## About the Company
 Dirk Rossmann GmbH is one of the largest drug store chains in Europe with around 56.300 employees and a total of 4.244 stores, including 2.233 in Germany. In 2020, the Rossmann Group achieved sales of €10,35 billion turnover in Germany, Poland, Hungary, the Czech Republic, Turkey, Albania, Kosovo and Spain.
 
-The company was founded by Dirk Rossmann[4] with its headquarters in Burgwedel near Hanover in Germany. The Rossmann family owns 60%, and the Hong Kong-based A.S. Watson Group 40% of the company.
+The company was founded by Dirk Rossmann with its headquarters in Burgwedel near Hanover in Germany. The Rossmann family owns 60%, and the Hong Kong-based A.S. Watson Group 40% of the company.
 
 The product range includes up to 21,700 items and can vary depending on the size of the shop and the location.
 
