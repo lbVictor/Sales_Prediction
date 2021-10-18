@@ -178,7 +178,7 @@ To access a store's sales forecast, start a Telegram conversation with RossmanBo
 * **Next Steps:** For the next CRISP cycle, we can make several improvements to the project:
 
 	- Develop a secondary project to forecast the number of customers in the store in the next six weeks and use the model output as input in this sales forecast project.
-	- Map more features that impact the business through a more accurate mental map and raise and validate more business hypothesis to generate actionable insights for the business team. 
+	- Map more features that impact the business through a more accurate mind map and raise and validate more business hypothesis to generate actionable insights for the business team. 
 	- Test different machine learning algorithms to get more accurate results.
 	- Use a more sophisticated hyperparameter fine tuning technique.
 	- Optimize the bot on the telegram to provide more information to the user.
