@@ -61,6 +61,8 @@ The methodology used to carry out this project was CRISP-DM which works through 
 </table>
 </p>
 
+Access the project development notebook here: https://github.com/lbVictor/Sales_Prediction/blob/main/notebooks/store_sales_prediction_cycle01.ipynb
+
 ## About the Company
 Dirk Rossmann GmbH is one of the largest drug store chains in Europe with around 56.300 employees and a total of 4.244 stores, including 2.233 in Germany. In 2020, the Rossmann Group achieved sales of €10,35 billion turnover in Germany, Poland, Hungary, the Czech Republic, Turkey, Albania, Kosovo and Spain.
 
